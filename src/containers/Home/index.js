@@ -7,7 +7,7 @@ import { API_URL_DEV, API_URL_PROD } from "../../constants";
 
 const Home = () => {
   const fetchAnalytics = async () => {
-    return await fetch(`${API_URL_DEV}/analytics`)
+    return await fetch(`${API_URL_PROD}/analytics`)
       .then((res) => res.json())
       .catch((err) => console.log(`err`, err));
   };
