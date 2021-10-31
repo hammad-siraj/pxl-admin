@@ -1,0 +1,13 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: "black";
+}
+img {
+  background-color: transparent;
+}
+.app {
+  width: 100%;
+  height: 100%;
+}
